@@ -13,7 +13,7 @@ variable "aws_amis" {
 }
 
 variable "KEY_NAME" {
-  default = "chave-fiap"
+  default = "fiap-lab"
 }
 variable "PATH_TO_KEY" {
   default = "/app/.ssh/fiap-lab.pem"
